@@ -38,11 +38,6 @@
             <input id="location" type="text" value="Av. Bartolomé Mitre 665 - Avellaneda" maxlength="54" />
           </label>
 
-          <label>
-            <span>Descripción de la oportunidad</span>
-            <textarea id="description" rows="3" maxlength="170" placeholder="Opcional"></textarea>
-          </label>
-
           <div class="metric-grid">
             <label>
               <span>Rentabilidad</span>
@@ -72,13 +67,23 @@
 
           <div class="asset-grid">
             <label class="file-input">
-              <span>Foto representativa</span>
+              <span>Foto de fondo</span>
               <input id="photoInput" type="file" accept="image/*" />
             </label>
 
             <label class="file-input">
               <span>Logo de la marca</span>
               <input id="logoInput" type="file" accept="image/*" />
+            </label>
+
+            <label class="file-input">
+              <span>Foto nítida del local</span>
+              <input id="localPhotoInput" type="file" accept="image/*" />
+            </label>
+
+            <label class="file-input">
+              <span>Segunda foto sin datos</span>
+              <input id="secondaryLocalPhotoInput" type="file" accept="image/*" />
             </label>
           </div>
 
@@ -96,6 +101,16 @@
             <label>
               <span>Color de datos</span>
               <input id="metricBoxColor" class="color-control" type="color" value="#ffffff" />
+            </label>
+
+            <label>
+              <span>Marco foto local</span>
+              <input id="localFrameColor" class="color-control" type="color" value="#e0e0e0" />
+            </label>
+
+            <label>
+              <span>Color tipografía</span>
+              <input id="textColor" class="color-control" type="color" value="#ffffff" />
             </label>
           </div>
 

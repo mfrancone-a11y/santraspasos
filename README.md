@@ -6,8 +6,9 @@ App simple para generar flyers verticales de traspaso de franquicias.
 
 1. Abrir `index.html` en el navegador.
 2. Cargar marca, inversión, ubicación y datos opcionales.
-3. Subir foto de fondo y logo en PNG.
-4. Ajustar color/opacidad del filtro y color de los datos.
+3. Subir foto de fondo, logo en PNG y, si existe, foto nítida del local.
+   Si no hay datos duros cargados, se puede sumar una segunda foto nítida para el lado izquierdo.
+4. Ajustar color/opacidad del filtro, color de tipografía, color de los datos y color del marco de la foto del local.
 5. Descargar el flyer en PNG o JPG.
 
 La app no guarda datos ni imágenes. Todo se procesa en el navegador de la persona que la usa.
